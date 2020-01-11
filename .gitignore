@@ -1,0 +1,19 @@
+.directory
+can_breakout_pcb/shapes3D/*
+*.o
+*.d
+*.lst
+*.bak
+*-bak
+*.bck
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.txss
+
+# Python Compiled Files
+*.pyc
