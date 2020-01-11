@@ -1,0 +1,203 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5C6B6961
+P 900 7200
+F 0 "H1" H 1000 7251 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1000 7160 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 900 7200 50  0001 C CNN
+F 3 "~" H 900 7200 50  0001 C CNN
+	1    900  7200
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 650  650  550  4900
+U 5C882540
+F0 "usb_conn" 50
+F1 "usb_conn.sch" 50
+F2 "USB_DN" B R 1200 900 50 
+F3 "USB_DP" B R 1200 800 50 
+$EndSheet
+$Sheet
+S 1700 650  1800 4900
+U 5E1B53FA
+F0 "orangepi" 50
+F1 "orangepi.sch" 50
+F2 "USB_DN" B L 1700 900 50 
+F3 "USB_DP" B L 1700 800 50 
+F4 "FTDI_USB_DP" B R 3500 1600 50 
+F5 "FTDI_USB_DN" B R 3500 1700 50 
+F6 "SPI_MOSI" O R 3500 800 50 
+F7 "SPI_MISO" I R 3500 900 50 
+F8 "SPI_CLK" O R 3500 1000 50 
+F9 "SPI_CS0" O R 3500 1100 50 
+F10 "SPI_CS1" O R 3500 1200 50 
+F11 "SPI_INT0" I R 3500 1300 50 
+F12 "SPI_INT1" I R 3500 1400 50 
+$EndSheet
+Wire Wire Line
+	1700 800  1200 800 
+Wire Wire Line
+	1200 900  1700 900 
+$Comp
+L power:GND #PWR0119
+U 1 1 5E151BBB
+P 900 7400
+F 0 "#PWR0119" H 900 7150 50  0001 C CNN
+F 1 "GND" H 905 7227 50  0000 C CNN
+F 2 "" H 900 7400 50  0001 C CNN
+F 3 "" H 900 7400 50  0001 C CNN
+	1    900  7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  7400 900  7300
+$Comp
+L power:GND #PWR0120
+U 1 1 5E152491
+P 1800 7400
+F 0 "#PWR0120" H 1800 7150 50  0001 C CNN
+F 1 "GND" H 1805 7227 50  0000 C CNN
+F 2 "" H 1800 7400 50  0001 C CNN
+F 3 "" H 1800 7400 50  0001 C CNN
+	1    1800 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 7400 1800 7300
+$Comp
+L power:GND #PWR0159
+U 1 1 5E152AD9
+P 2800 7400
+F 0 "#PWR0159" H 2800 7150 50  0001 C CNN
+F 1 "GND" H 2805 7227 50  0000 C CNN
+F 2 "" H 2800 7400 50  0001 C CNN
+F 3 "" H 2800 7400 50  0001 C CNN
+	1    2800 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 7400 2800 7300
+$Comp
+L power:GND #PWR0183
+U 1 1 5E15358F
+P 3800 7400
+F 0 "#PWR0183" H 3800 7150 50  0001 C CNN
+F 1 "GND" H 3805 7227 50  0000 C CNN
+F 2 "" H 3800 7400 50  0001 C CNN
+F 3 "" H 3800 7400 50  0001 C CNN
+	1    3800 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 7400 3800 7300
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5E1269DE
+P 1800 7200
+F 0 "H2" H 1900 7251 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1900 7160 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 1800 7200 50  0001 C CNN
+F 3 "~" H 1800 7200 50  0001 C CNN
+	1    1800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5E126ED8
+P 2800 7200
+F 0 "H3" H 2900 7251 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2900 7160 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 2800 7200 50  0001 C CNN
+F 3 "~" H 2800 7200 50  0001 C CNN
+	1    2800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5E127453
+P 3800 7200
+F 0 "H4" H 3900 7251 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3900 7160 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 3800 7200 50  0001 C CNN
+F 3 "~" H 3800 7200 50  0001 C CNN
+	1    3800 7200
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 4000 650  1800 2400
+U 5E180BAA
+F0 "can.sch" 50
+F1 "can.sch" 50
+F2 "SPI_MOSI" I L 4000 800 50 
+F3 "SPI_MISO" O L 4000 900 50 
+F4 "SPI_CLK" I L 4000 1000 50 
+F5 "SPI_CS0" I L 4000 1100 50 
+F6 "SPI_INT1" O L 4000 1400 50 
+F7 "SPI_INT0" O L 4000 1300 50 
+F8 "SPI_CS1" I L 4000 1200 50 
+$EndSheet
+Wire Wire Line
+	3500 800  4000 800 
+Wire Wire Line
+	4000 900  3500 900 
+Wire Wire Line
+	3500 1000 4000 1000
+Wire Wire Line
+	4000 1100 3500 1100
+Wire Wire Line
+	3500 1200 4000 1200
+Wire Wire Line
+	4000 1300 3500 1300
+Wire Wire Line
+	3500 1400 4000 1400
+$Sheet
+S 4000 3350 1800 2200
+U 5E22B805
+F0 "ftdi" 50
+F1 "ftdi.sch" 50
+F2 "FTDI_USB_DP" B L 4000 3500 50 
+F3 "FTDI_USB_DN" B L 4000 3600 50 
+$EndSheet
+Wire Wire Line
+	4000 3500 3800 3500
+Wire Wire Line
+	3800 3500 3800 1600
+Wire Wire Line
+	3800 1600 3500 1600
+Wire Wire Line
+	4000 3600 3700 3600
+Wire Wire Line
+	3700 3600 3700 1700
+Wire Wire Line
+	3700 1700 3500 1700
+$Comp
+L can_breakout_pcb:Logo_TM_small LOGO1
+U 1 1 5E1C963D
+P 10750 6800
+F 0 "LOGO1" H 10960 6790 50  0001 C CNN
+F 1 "Logo_TM_small" H 10970 6460 50  0001 C CNN
+F 2 "can_breakout_pcb:TM_logo" H 10960 6380 50  0001 C CNN
+F 3 "" H 10150 6900 50  0001 C CNN
+	1    10750 6800
+	1    0    0    -1  
+$EndComp
+Text Notes 7350 7500 0    50   ~ 0
+Orange PI Can Breakout
+Text Notes 7050 7000 0    50   ~ 0
+CAN Breakout Board with Debugger (using FTDI)\n\nT. Music - 01/2019\n\nLicense: CC BY-SA 4.0
+$EndSCHEMATC

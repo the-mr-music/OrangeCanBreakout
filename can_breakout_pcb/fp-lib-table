@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Type-C)(type KiCad)(uri /home/tm/Git_work/Raspidebug/usbc/Type-C.pretty)(options "")(descr ""))
+  (lib (name can_breakout_pcb)(type KiCad)(uri ${KIPRJMOD}/lib/can_breakout_pcb.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Type-C)(type Legacy)(uri /home/tm/Git_work/Raspidebug/usbc/Type-C.pretty/Type-C.lib)(options "")(descr ""))
+  (lib (name can_breakout_pcb)(type Legacy)(uri ${KIPRJMOD}/can_breakout_pcb.lib)(options "")(descr ""))
+)
